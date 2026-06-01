@@ -1,0 +1,26 @@
+[
+  {
+    "id": "paid-advertising",
+    "title": "Paid Advertising",
+    "iconName": "Megaphone",
+    "description": "Hyper-scalable campaigns on Meta, Google, and TikTok. We design performance creatives, optimize ad funnels, and surgically allocate budgets to yield maximum direct return on spend."
+  },
+  {
+    "id": "web-analytics",
+    "title": "Web Analytics & Tracking",
+    "iconName": "BarChart2",
+    "description": "Server-side tracking, custom GA4 architectures, and pixel audits. We establish robust attribution loops, allowing you to accurately track conversions despite modern privacy blockers."
+  },
+  {
+    "id": "marketing-strategy",
+    "title": "Marketing Strategy",
+    "iconName": "Target",
+    "description": "End-to-end positioning blueprints for DTC and high-growth retail brands. We diagnose unit economics, plan creative testing schedules, and formulate sustainable scale guides."
+  },
+  {
+    "id": "cro-optimization",
+    "title": "Conversion Rate Optimization (CRO)",
+    "iconName": "TrendingUp",
+    "description": "Data-backed landing page design, user session analysis, and rigorous A/B testing. We turn traffic leaks into checkout conversions to instantly decrease your CPA."
+  }
+]

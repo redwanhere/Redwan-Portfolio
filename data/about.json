@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Redwanul Haque",
+    "italicText": "Media Buyer & Web Analytics Expert",
+    "tagline": "Turning ad spend into predictable revenue with scientific media buying & bulletproof analytics.",
+    "introText": "I am a performance-driven Media Buyer and Web Analytics Specialist based in Chattogram, Bangladesh. Over the last 2+ years, I have helped DTC and high-growth retail brands optimize their funnel, capture missing attribution data, and scale their marketing budgets with high precision. My approach is purely mathematical: eliminate guessing, isolate creative variables, configure solid server-side tracking loops, and let hard metrics direct the scaling path.",
+    "infoGrid": [
+      { "label": "AGE", "value": "24 Years" },
+      { "label": "BORN IN", "value": "Chattogram, Bangladesh" },
+      { "label": "WHATSAPP", "value": "+8801752094790" },
+      { "label": "EMAIL", "value": "theredwan.me@gmail.com" }
+    ]
+  },
+  "timeline": [
+    {
+      "id": "t1",
+      "role": "Lead Media Buyer & Analytics Consultant",
+      "company": "Freelance",
+      "duration": "Aug 2023 - Present",
+      "current": true,
+      "description": "Consulting DTC brands directly to configure GTM server-side systems and run high-efficiency Facebook/TikTok social ad sets."
+    },
+    {
+      "id": "t2",
+      "role": "Senior Media Buyer",
+      "company": "Marktek Digital",
+      "duration": "Jan 2024 - Present",
+      "current": true,
+      "description": "Executing creative testing matrices and allocating high-tier advertising spend on enterprise e-commerce platforms."
+    },
+    {
+      "id": "t3",
+      "role": "Web Analytics Specialist",
+      "company": "Tenvelop",
+      "duration": "Jan 2024 - Present",
+      "current": true,
+      "description": "Constructing robust reporting frameworks using GA4, Looker Studio, and Cloudflare server-side tag integrations."
+    },
+    {
+      "id": "t4",
+      "role": "Media Buying Associate",
+      "company": "Wire-Digital",
+      "duration": "Sep 2022 - Apr 2023",
+      "current": false,
+      "description": "Conducted audience research, compiled performance dashboards, and managed social channel assets for boutique clients."
+    }
+  ]
+}

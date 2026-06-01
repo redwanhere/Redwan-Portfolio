@@ -1,0 +1,54 @@
+[
+  {
+    "id": "kids-fashion",
+    "title": "Scaling Kid's Fashion Brand to $3M/Yr",
+    "category": "Paid Ads",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Meta Ads", "Creative Testing", "GA4 Attribution"],
+    "adSpend": "$650,000",
+    "featuredOnHome": true,
+    "caseStudyLink": "/portfolios/kids-fashion",
+    "roas": "4.5x",
+    "results": "+140% YOY Sales",
+    "description": "Implemented a rigid horizontal creative-testing pipeline coupled with GA4 server-side pixel tracking, bringing CPA down by 35% in under 90 days."
+  },
+  {
+    "id": "womens-clothing",
+    "title": "Unlocking 6.2x ROAS for Premium Women's Wear",
+    "category": "Paid Ads",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800&auto=format&fit=crop",
+    "tags": ["TikTok Ads", "Meta Ads", "Catalog Scale"],
+    "adSpend": "$1,200,000",
+    "featuredOnHome": true,
+    "caseStudyLink": "/portfolios/womens-clothing",
+    "roas": "6.2x",
+    "results": "8.4x Peak ROAS",
+    "description": "Surgically targeted high-LTV cohorts and set up dynamic catalog overlays, helping the client expand margins and clear out out-of-season inventory."
+  },
+  {
+    "id": "mens-fashion",
+    "title": "Dominating Facebook Channels for Men's Essentials",
+    "category": "Paid Ads",
+    "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Meta Ads", "A/B Testing", "Funnel Optimization"],
+    "adSpend": "$800,000",
+    "featuredOnHome": true,
+    "caseStudyLink": "/portfolios/mens-fashion",
+    "roas": "3.8x",
+    "results": "-42% CPA Drop",
+    "description": "Redesigned landing pages specifically for social traffic, resulting in a dramatic conversion rate increase from 1.8% to 4.1%."
+  },
+  {
+    "id": "electronics-brand",
+    "title": "Omnichannel Scaling Blueprints for a Gadget Brand",
+    "category": "Marketing Strategy",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Full Funnel Strategy", "Attribution Auditing", "CRO Blueprint"],
+    "adSpend": "$2,500,000",
+    "featuredOnHome": true,
+    "caseStudyLink": "/portfolios/electronics-brand",
+    "roas": "4.1x",
+    "results": "+210% Net Profit",
+    "description": "Constructed a comprehensive marketing and acquisition engine, combining paid search, performance social, and advanced email retention schedules."
+  }
+]

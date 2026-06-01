@@ -1,0 +1,58 @@
+[
+  {
+    "id": "post-ios14",
+    "title": "Unlocking 98% Attribution Accuracy After iOS 14+",
+    "type": "article",
+    "slug": "unlocking-attribution-accuracy-ios14",
+    "category": "Web Analytics",
+    "date": "May 28, 2026",
+    "readTime": "6 min read",
+    "featuredOnHome": true,
+    "excerpt": "Traditional browser pixel tracking is dying. In this detailed guide, we map out how server-side tracking and custom GA4 events restore lost marketing visibility.",
+    "content": "### The Death of Browser Pixels\n\nSince Apple launched iOS 14.5, browser-based tracking has been severely crippled. Safari's Intelligent Tracking Prevention (ITP) caps pixel lifespans to as little as 24 hours. Ad-blockers, VPNs, and network filters completely prevent client-side script loading.\n\nTo solve this, leading e-commerce brands are switching to **Server-Side Tracking** via Google Tag Manager (sGTM) and Cloudflare. \n\n### How Server-Side Tracking Restores Attribution\n\n1. **First-Party Context**: Instead of sending data directly to `facebook.com`, data is sent to a custom subdomain under your main website (e.g., `tracking.yourdomain.com`). This makes it bypass ad-blockers.\n2. **Bypass ITP Restrictions**: Cookies set in a true first-party server-to-server connection are not wiped in 1 or 7 days, allowing you to accurately track customer journeys spanning up to 2 years.\n3. **CAPI Conversions API**: Sending events directly from your server to Meta's server ensures that every checkout, lead, and add-to-cart is logged even when Safari blocks scripts.\n\n### Implementation Blueprint\n\nWe typically implement a server-side setup in three main layers:\n* **Data Layer Setup**: Push robust customer data variables (hashed email, phone, city) in the browser.\n* **Server Container Configuration**: Host a Node.js server container on Google Cloud Platform or Stape.io.\n* **CAPI Deduplication**: Ensure browser pixel and server pixel match perfectly using unique transaction or event IDs to prevent double reporting.\n\nBy taking these steps, brands routinely experience a 30% to 50% increase in reported conversions, giving ad algorithms the data they need to lower acquisition costs."
+  },
+  {
+    "id": "post-creative-testing",
+    "title": "The Scientific System for Winning Ad Creatives in 2026",
+    "type": "article",
+    "slug": "scientific-ad-creative-testing-system",
+    "category": "Paid Ads",
+    "date": "May 14, 2026",
+    "readTime": "8 min read",
+    "featuredOnHome": true,
+    "excerpt": "No more guessing. Learn our 3-phase creative testing structure that isolates hooks, body angles, and CTA overlays to secure consistent scale.",
+    "content": "### Why Creative is the New Targeting\n\nWith Meta's broad targeting and Advantage+ campaigns taking over, the audience is determined by the **ad creative itself**. The copy, visual structure, and hooks are what filter out low-intent users and attract high-value purchasers. \n\nIf your creative testing process is 'throw 10 videos in an ad set and see what wins,' you are wasting thousands of dollars. Here is our rigorous scientific system.\n\n### The Three-Phase Creative Testing Matrix\n\n#### Phase 1: The Hook Test (Variables Isolations)\nWe run 3 identical videos where only the first 3 seconds (the hook) change. Keep the body, music, and CTA constant. Measure the **3-Second Hook Rate** (3s views divided by total impressions). Any hook exceeding 35% advances to Phase 2.\n\n#### Phase 2: The Body & Angle Test\nFor the winning hooks, we test different body structures: user-generated content (UGC) unboxing, problem-solution demonstrations, or side-by-side product comparisons. We measure **Hold Rate** (15-second views / impressions) and outbound CTR.\n\n#### Phase 3: The Scaling Launch\nOnce we have a hook-and-body combination that beats our historical CPA caps, we graduate it to our primary scaling campaigns (Advantage+ Shopping or CBO) with high budget allocations.\n\n### Core Creative KPIs to Monitor\n\n* **Hook Rate (3-sec View / Impressions)**: Benchmark > 30%\n* **Hold Rate (15-sec View / Impressions)**: Benchmark > 15%\n* **Outbound CTR**: Benchmark > 1.8%\n* **CPA**: Always the ultimate indicator of viability."
+  },
+  {
+    "id": "post-linkedin-cpa",
+    "title": "Why standard A/B testing is wasting your Meta ad spend",
+    "type": "social_post",
+    "category": "Paid Ads",
+    "date": "May 08, 2026",
+    "featuredOnHome": true,
+    "socialEmbedUrl": "https://linkedin.com/posts/theredwan_meta-advertising-ab-testing-wastes-spend",
+    "excerpt": "My breakdown on why typical Meta A/B testing splits budgets poorly and how to set up dynamic creative tests for genuine scaling insights instead."
+  },
+  {
+    "id": "post-ga4-attribution",
+    "title": "Demystifying GA4 Attribution Models: First-Touch vs Data-Driven",
+    "type": "article",
+    "slug": "demystifying-ga4-attribution-models",
+    "category": "Web Analytics",
+    "date": "Apr 22, 2026",
+    "readTime": "5 min read",
+    "featuredOnHome": false,
+    "excerpt": "Struggling to reconcile Meta Ads Manager numbers with Google Analytics? Let's break down how GA4 attribution operates and how to achieve clarity.",
+    "content": "### The Attribution Conflict\n\nIt is the oldest problem in digital marketing: Meta Ads claims 150 purchases, but Google Analytics 4 shows only 65 conversions attributed to 'Paid Social'. Who is telling the truth?\n\nTo resolve this, we have to unpack how GA4's default **Data-Driven Attribution (DDA)** model operates compared to Meta's default **7-day click, 1-day view** attribution window.\n\n### The Meta Model vs. The Google Model\n\n* **Meta Ads**: Operates on a *touchpoint* attribution. If a user sees your ad on Monday, clicks another ad on Tuesday, and purchases on Wednesday, Meta claims 100% of the conversion credit.\n* **GA4 Data-Driven Attribution**: Looks at the *entire customer journey* across organic search, direct entries, emails, and paid socials. Using machine learning, GA4 distributes fractional credit (e.g., 0.4 to Search, 0.3 to Social, 0.3 to Email).\n\n### Best Practices for Multi-Channel Reporting\n\n1. **Always Use Custom UTMs**: Include structured UTM parameters (`utm_source`, `utm_medium`, `utm_campaign`, `utm_content`) to capture specific creative angles.\n2. **Analyze Path Explorations**: Dive into GA4's 'Conversion paths' report. You will find that Paid Social is often a top *initiator* of journeys, whereas Direct is the top *closer*.\n3. **Establish a Single Source of Truth**: Don't count conversions twice. Decide on a unified standard (typically blended MER or GA4 fractional value) for budgeting decisions."
+  },
+  {
+    "id": "post-twitter-cro",
+    "title": "3 Simple Checkout Tweaks that boosted client AOV by 70%",
+    "type": "social_post",
+    "category": "Web Analytics",
+    "date": "Apr 11, 2026",
+    "socialEmbedUrl": "https://x.com/redwan/status/178593021",
+    "featuredOnHome": false,
+    "excerpt": "Quick thread on checkout page upsells, one-click order bumps, and multi-tier discount meters. These took our DTC fashion client's average ticket size from $54 to $91.80."
+  }
+]

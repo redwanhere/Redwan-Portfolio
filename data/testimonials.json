@@ -1,0 +1,34 @@
+[
+  {
+    "id": "t-malcolm",
+    "name": "Malcolm Jenkins",
+    "role": "Founder & CEO",
+    "company": "Bloom & Thread Co.",
+    "feedback": "Redwan completely transformed our scaling strategy. We were stuck at a 2.1x ROAS with stagnant creative results, but within 60 days, he managed to push us past 4.2x ROAS while tripling our monthly budget. Absolute wizard!",
+    "stars": 5
+  },
+  {
+    "id": "t-eshita",
+    "name": "Eshita Kabir",
+    "role": "VP of Growth",
+    "company": "Kira & Co. Apparel",
+    "feedback": "attribution was a black box for us after IOS14 until Redwan stepped in. He mapped out a bulletproof GTM and GA4 server-side infrastructure. Our tracking match rate shot up to 98%, and we can finally attribute scale with 100% confidence.",
+    "stars": 5
+  },
+  {
+    "id": "t-kaiden",
+    "name": "Kaiden Vance",
+    "role": "Director of Marketing",
+    "company": "Volt Devices",
+    "feedback": "His creative testing process is incredibly scientific. Instead of guessing, he runs systematic creative iterations that consistently discover winning hooks. Our overall ad CTR improved 5x over the course of our campaign.",
+    "stars": 5
+  },
+  {
+    "id": "t-hugh",
+    "name": "Hugh Allan",
+    "role": "E-commerce Director",
+    "company": "North Wood Apparel",
+    "feedback": "Working with Redwan was the best investment we made this year. Not only did our customer acquisition costs plummet by 40%, but he also redesigned our checkouts and upsells, lifting our average order value by a whopping 70%.",
+    "stars": 5
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "exp-freelance",
+    "role": "Lead Media Buyer & Analytics Consultant",
+    "company": "Freelance",
+    "duration": "Aug 2023 - Present",
+    "current": true,
+    "description": "Helped dozens of DTC brands scale their direct-to-consumer revenues by setting up robust server-side analytics pipelines (GA4/GTM) and running performance campaigns across Meta, TikTok, and Google Ads. Successfully managed client ad budgets resulting in outstanding CPA reductions and ROAS growth."
+  },
+  {
+    "id": "exp-marktek",
+    "role": "Senior Media Buyer",
+    "company": "Marktek Digital",
+    "duration": "Jan 2024 - Present",
+    "current": true,
+    "description": "Formulated creative testing processes, managed high-budget client advertising channels, and worked closely with copywriters and designers to produce high-impact performance creatives. Conducted comprehensive attribution audits to secure highly accurate budget reporting."
+  },
+  {
+    "id": "exp-tenvelop",
+    "role": "Web Analytics Specialist",
+    "company": "Tenvelop",
+    "duration": "Jan 2024 - Present",
+    "current": true,
+    "description": "Spearheaded custom integration projects mapping pixel APIs and server-side tracking matrices. Maintained robust reporting setups using Looker Studio and ensured full alignment between customer databases, GA4 events, and paid marketing pipelines."
+  },
+  {
+    "id": "exp-wire",
+    "role": "Media Buying Associate",
+    "company": "Wire-Digital",
+    "duration": "Sep 2022 - Apr 2023",
+    "current": false,
+    "description": "Maintained day-to-day operations for social media ad platforms, conducted audience research, monitored CPC and impression trends, and produced weekly metrics dashboards for brand stakeholders."
+  }
+]

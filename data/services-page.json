@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "title": "What I Can Do For You",
+    "subtext": "High-impact paid advertising campaigns backed by modern server-side analytics. No assumptions. Just clean, mathematical scale."
+  },
+  "services": [
+    {
+      "id": "s1",
+      "title": "Paid Social Scaling (Meta & TikTok)",
+      "iconName": "Megaphone",
+      "description": "Systematic ad campaigns targeting high-intent cohorts on Facebook, Instagram, and TikTok using strict creative-testing frameworks."
+    },
+    {
+      "id": "s2",
+      "title": "Google Search & Shopping Ads",
+      "iconName": "Search",
+      "description": "Capture active high-intent demand with perfectly structured Google Shopping, Performance Max, and brand protection campaigns."
+    },
+    {
+      "id": "s3",
+      "title": "Google Tag Manager Server-Side",
+      "iconName": "Server",
+      "description": "Configure GTM custom node server containers to establish true first-party cookie domains and bypass modern ad-block filters."
+    },
+    {
+      "id": "s4",
+      "title": "Custom GA4 E-commerce Tracking",
+      "iconName": "BarChart2",
+      "description": "Establish a tailored Google Analytics 4 tracking schema to log every purchase, refund, cart value, and customer behavior route."
+    },
+    {
+      "id": "s5",
+      "title": "Meta Conversions API (CAPI)",
+      "iconName": "Cpu",
+      "description": "Set up server-to-server tracking deduplicated perfectly with client-side pixels to optimize Meta's conversion delivery loops."
+    },
+    {
+      "id": "s6",
+      "title": "A/B Landing Page & CRO Testing",
+      "iconName": "TrendingUp",
+      "description": "Audit and restructure e-commerce landing pages, checkouts, and offer layouts to instantly boost site conversions."
+    },
+    {
+      "id": "s7",
+      "title": "Creative Performance Auditing",
+      "iconName": "Target",
+      "description": "Analyze existing visual libraries and provide comprehensive storyboards and hooks optimized specifically for direct acquisition."
+    },
+    {
+      "id": "s8",
+      "title": "Interactive Looker Studio BI BI Dashboards",
+      "iconName": "PieChart",
+      "description": "Consolidate Meta, Google, Shopify, and Klaviyo data into one unified reporting dashboard for real-time marketing visibility."
+    },
+    {
+      "id": "s9",
+      "title": "Acquisition Funnel Auditing",
+      "iconName": "Activity",
+      "description": "Perform exhaustive structural diagnosis of your unit economics, acquisition costs, margins, and landing page bottlenecks."
+    },
+    {
+      "id": "s10",
+      "title": "E-commerce Email & Retention Setup",
+      "iconName": "Mail",
+      "description": "Integrate post-purchase upsells and abandoned cart flows to increase customer retention and lift average order value."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "p-starter",
+      "name": "Starter",
+      "price": "$990",
+      "period": "/month",
+      "description": "Perfect for new DTC brands looking to build a clean baseline before scaling up.",
+      "features": [
+        "Up to $5,000/mo Ad Spend managed",
+        "Meta & Google Ads launch",
+        "Standard GA4 E-commerce tracking",
+        "Bi-weekly performance reports",
+        "Creative angle blueprints",
+        "Email support response < 24h"
+      ],
+      "popular": false,
+      "buttonText": "Start DTC Launchpad"
+    },
+    {
+      "id": "p-growth",
+      "name": "Growth",
+      "price": "$1,990",
+      "period": "/month",
+      "description": "Our most popular package. Designed for scaling brands wanting to unlock real profitability.",
+      "features": [
+        "Up to $25,000/mo Ad Spend managed",
+        "Meta, TikTok, and Google Ads management",
+        "Full GTM Server-Side & Meta CAPI integration",
+        "Advanced Creative Testing framework",
+        "Weekly BI Looker Studio dashboarding",
+        "Landing page CRO recommendations",
+        "Slack & Whatsapp channel access"
+      ],
+      "popular": true,
+      "buttonText": "Scale My Brand Now"
+    },
+    {
+      "id": "p-scale",
+      "name": "Scale",
+      "price": "$3,490",
+      "period": "/month",
+      "description": "For high-growth brands aiming to dominate their niche with mathematical scale.",
+      "features": [
+        "Up to $75,000/mo Ad Spend managed",
+        "Full Omnichannel acquisition scale",
+        "High-frequency Creative Testing sets",
+        "Full Funnel CRO Landing Page design",
+        "Bespoke real-time BI reporting metrics",
+        "Competitor market analysis blueprints",
+        "Dedicated weekly sync consultations"
+      ],
+      "popular": false,
+      "buttonText": "Unlock Maximum Dominance"
+    },
+    {
+      "id": "p-custom",
+      "name": "Custom",
+      "price": "Bespoke",
+      "period": "",
+      "description": "Custom enterprise solutions for high-spend conglomerates needing custom integrations.",
+      "features": [
+        "Unlimited Ad Spend management",
+        "Multi-country pixel setups & tracking",
+        "Custom server integration scripts",
+        "Dedicated creative director consultations",
+        "Continuous 24/7 pixel diagnostics",
+        "Bespoke contract clauses & options",
+        "Daily messaging & premium support"
+      ],
+      "popular": false,
+      "buttonText": "Request Enterprise Audit"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What platforms do you manage?",
+      "answer": "We manage and scale campaigns across Meta (Facebook & Instagram), TikTok, and Google (Search, Shopping, and YouTube Ads). We align your cross-channel strategy so that Google captures the search intent triggered by your social video hooks."
+    },
+    {
+      "question": "Why is Server-Side tracking necessary in 2026?",
+      "answer": "Browser-side pixel cookies are restricted by Safari's 1-7 day caps, ad blockers, and browser filters. Server-side tracking establishes first-party domains, bypassing browser firewalls to send purchase metrics directly server-to-server. This ensures 98%+ attribution, which feeds ad algorithms the accurate data they need to optimize targeting."
+    },
+    {
+      "question": "How long does it take to see tangible results?",
+      "answer": "We generally begin with a 14-day discovery and audit phase where we configure clean pixel tracking and launch first-round creative hook tests. You will see directional lead/sales improvements in week 3-4, and we typically hit true sustainable scaling strides in months 2 and 3."
+    },
+    {
+      "question": "Do you design the creative assets ourselves?",
+      "answer": "We do not film the raw video clips ourselves, but we do provide complete high-performance storyboards, script angles, and video briefs for your creative team. We then take your raw assets, edit them using performance-acquisition principles, and structure them for rigorous testing."
+    },
+    {
+      "question": "How does the pricing and contract work?",
+      "answer": "We charge a flat monthly fee listed in our pricing tiers. There are no sneaky revenue-sharing or percent-of-ad-spend traps, ensuring our incentives align solely on your net profitability. Our plans are on a month-to-month basis with no locking multi-year contracts."
+    }
+  ]
+}

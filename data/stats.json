@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ad-spend",
+    "value": "8",
+    "prefix": "$",
+    "suffix": "M+",
+    "label": "Total Ad Spend Managed",
+    "description": "Optimized and scaled paid channels across Facebook, Google, and TikTok ads."
+  },
+  {
+    "id": "cpa",
+    "value": "40",
+    "prefix": "",
+    "suffix": "%+",
+    "label": "Improved CPA",
+    "description": "Reduced Customer Acquisition Costs significantly using granular media buying tactics."
+  },
+  {
+    "id": "roas",
+    "value": "70",
+    "prefix": "",
+    "suffix": "%+",
+    "label": "Improved ROAS",
+    "description": "Boosted return on advertising spend through surgical targeting and creative optimization."
+  },
+  {
+    "id": "revenue",
+    "value": "12",
+    "prefix": "",
+    "suffix": "x",
+    "label": "Improved Revenue",
+    "description": "Scaled e-commerce brands from baseline revenue to their highest historical caps."
+  },
+  {
+    "id": "ctr",
+    "value": "5",
+    "prefix": "",
+    "suffix": "x+",
+    "label": "Improved CTR",
+    "description": "Elevated Click-Through Rates with data-driven creative hooks and copy angles."
+  },
+  {
+    "id": "win-rate",
+    "value": "60",
+    "prefix": "",
+    "suffix": "%+",
+    "label": "Creative Win Rate",
+    "description": "Achieved a high success rate on testing concepts using performance design rules."
+  },
+  {
+    "id": "aov",
+    "value": "70",
+    "prefix": "",
+    "suffix": "%+",
+    "label": "Improved AOV",
+    "description": "Amplified Average Order Value through targeted post-purchase upsells."
+  }
+]
