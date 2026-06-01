@@ -62,18 +62,20 @@ export default function Navbar() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
             ? "py-3 bg-[#0A0D14]/85 backdrop-blur-xl border-b border-border/50 shadow-[0_1px_20px_rgba(0,0,0,0.4)]"
             : "py-5 bg-transparent border-b border-transparent"
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
 
           {/* Logo */}
           <Link href="/" className="font-syne font-extrabold text-lg tracking-tight text-white group flex items-center gap-1.5 flex-shrink-0">
-            <span className="w-7 h-7 rounded-lg bg-primary/15 border border-primary/30 flex items-center justify-center text-primary font-mono text-sm group-hover:bg-primary/25 transition-colors">R</span>
-            <span className="group-hover:text-primary/90 transition-colors">Redwanul</span>
+            <img
+              src="/logo.png"
+              alt="Redwanul logo"
+              className="w-50 h-10 rounded-lg object-contain group-hover:opacity-80 transition-opacity"
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -85,11 +87,10 @@ export default function Navbar() {
                   key={item.label}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item)}
-                  className={`relative px-3.5 py-2 rounded-lg text-sm font-dmSans font-medium tracking-wide transition-all duration-200 ${
-                    active
+                  className={`relative px-3.5 py-2 rounded-lg text-sm font-dmSans font-medium tracking-wide transition-all duration-200 ${active
                       ? "text-white bg-surface/60 border border-border/60"
                       : "text-text-muted hover:text-white hover:bg-surface/40"
-                  }`}
+                    }`}
                 >
                   {item.label}
                   {active && (
@@ -178,11 +179,10 @@ export default function Navbar() {
                       <Link
                         href={item.href}
                         onClick={(e) => handleNavClick(e, item)}
-                        className={`flex items-center justify-between px-4 py-3 rounded-xl text-base font-syne font-semibold transition-all ${
-                          active
+                        className={`flex items-center justify-between px-4 py-3 rounded-xl text-base font-syne font-semibold transition-all ${active
                             ? "text-primary bg-primary/10 border border-primary/20"
                             : "text-text-muted hover:text-white hover:bg-surface/50"
-                        }`}
+                          }`}
                       >
                         {item.label}
                         {active && <span className="w-1.5 h-1.5 rounded-full bg-primary" />}
