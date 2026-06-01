@@ -65,9 +65,12 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="md:col-span-5 flex flex-col gap-5">
-            <Link href="/" className="font-syne font-extrabold text-xl text-white tracking-tight inline-flex items-center gap-2">
-              <span className="w-8 h-8 rounded-lg bg-primary/15 border border-primary/30 flex items-center justify-center text-primary font-mono text-sm">R</span>
-              Redwanul Haque
+            <Link href="/" className="font-syne font-extrabold text-lg tracking-tight text-white group flex gap-1.5 flex-shrink-0">
+              <img
+                src="/logo.png"
+                alt="Redwanul logo"
+                className="w-50 h-20 rounded-lg object-contain group-hover:opacity-80 transition-opacity"
+              />
             </Link>
             <p className="text-text-muted font-dmSans text-sm leading-relaxed max-w-xs">
               Media Buyer & Web Analytics Expert helping DTC brands scale with data-driven paid media strategies.
