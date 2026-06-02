@@ -156,7 +156,7 @@ export default function MapSection() {
 
             {/* CTA card */}
             <motion.a
-              href="https://calendly.com/theredwan"
+              href="https://calendly.com/redwan4digital/free-consultation"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, x: 20 }}

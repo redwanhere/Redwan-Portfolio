@@ -38,7 +38,7 @@ export default function CtaSection() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
             <motion.a
-              href="https://calendly.com/theredwan"
+              href="https://calendly.com/redwan4digital/free-consultation"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.04, boxShadow: "0 0 30px rgba(99, 102, 241, 0.45)" }}

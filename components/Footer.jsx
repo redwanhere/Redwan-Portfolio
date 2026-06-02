@@ -148,7 +148,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Redwanul Haque. All rights reserved.
           </p>
           <a
-            href="https://calendly.com/theredwan"
+            href="https://calendly.com/redwan4digital/free-consultation"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-dmSans text-text-muted/50 hover:text-primary transition-colors"

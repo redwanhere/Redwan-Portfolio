@@ -150,7 +150,7 @@ export default function HeroSection() {
               className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
             >
               <motion.a
-                href="https://calendly.com/theredwan"
+                href="https://calendly.com/redwan4digital/free-consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.04, boxShadow: "0 0 28px rgba(99,102,241,0.45)" }}

@@ -108,7 +108,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden md:flex">
             <motion.a
-              href="https://calendly.com/theredwan"
+              href="https://calendly.com/redwan4digital/free-consultation"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.04, boxShadow: "0 0 20px rgba(99,102,241,0.35)" }}
@@ -195,7 +195,7 @@ export default function Navbar() {
               {/* Footer CTA */}
               <div className="px-4 py-6 border-t border-border/40">
                 <a
-                  href="https://calendly.com/theredwan"
+                  href="https://calendly.com/redwan4digital/free-consultation"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileOpen(false)}

@@ -109,7 +109,7 @@ export default function AboutHeroSection() {
               <motion.a
                 whileHover={{ scale: 1.04, borderColor: "#6366F1", color: "#F9FAFB" }}
                 whileTap={{ scale: 0.97 }}
-                href="https://calendly.com/theredwan"
+                href="https://calendly.com/redwan4digital/free-consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 rounded-xl border border-border bg-surface/30 hover:bg-surface/60 text-text-muted font-dmSans font-semibold text-sm flex items-center justify-center gap-2 transition-all"
